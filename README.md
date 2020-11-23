@@ -10,11 +10,11 @@ Nesta página do site, temos algumas intruções:
 	- As fotos da equipe inicialmente estarão ocultas e apenas vão aparecer quando o usuário clicar no botão "Veja nossa equipe".
 
 
-  layout da pagina desenvolvido com HTML 
+  layout da página desenvolvido com HTML 
   utilizei css puro sendo - pagina index
                           - carrossel 
 
-  para desenvolcimento do banner rotativo (carrossel) utilizei JS Vanilla
+  para desenvolvimento do banner rotativo (carrossel) utilizei JS Vanilla
   para desenvolvimento da animação no botão "veja nossa equipe" utilizei biblioteca JQuery 
 
   criei hover nos botões mantendo as cores do logo
