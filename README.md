@@ -19,3 +19,6 @@ Nesta página do site, temos algumas intruções:
 
   criei hover nos botões mantendo as cores do logo
   o layout foi desenvolvido na dimensão de tela"  1773 X 643
+  
+  o resultado final pode ser visto em: https://mi2507.github.io/fg/
+  
