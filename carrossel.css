@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.slideshow_container {
+  position: relative;
+  margin: auto;
+}
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+}
+.prev {
+  left: 176px;
+  font-size: 36px;
+}
+.next {
+  right: 176px;
+  font-size: 36px;
+}
+
+.slideshow_img {
+  width: 100%;
+  max-height: 538px;
+  filter: contrast(0.5);
+}
+
+.slideshow_text {
+  color: black;
+  left: 424px;
+  position: absolute;
+  top: 160px;
+  z-index: 1;
+  text-transform: uppercase;  
+  letter-spacing: 1px;
+}
+
+.slideshow_text h1{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.slideshow_dot {
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #c0c0c0;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #363636;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}

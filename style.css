@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation {
+  margin: 0;
+  display: flex;
+  background-color: #ececec;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation_logo {
+  height: 96px;
+  margin-right: 56px;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation a {
+  font-family: "Roboto", sans-serif;
+  color: #696969;
+  text-decoration: none;
+  padding: 0 56px 0;
+  text-transform: uppercase;
+}
+
+.navigation a:hover {
+  color: #000000;
+}
+
+.contact_button {
+  background-color: #fa6843;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 16px 16px;
+  margin-left: 40px;
+  transition-duration: 0.4s;
+  font-weight: 900;
+}
+
+.contact_button:hover {
+  background-color: #faaf3d;
+  color: #000000;
+}
+
+.navigation_bannerTitle {
+  top: 64px;
+  font-size: 32px;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 900;
+  padding: 0 108px;
+  margin: 0px 208px;
+  z-index: 2;
+}
+
+.navigation_content {
+  display: flex;
+  margin: 0 24%;
+}
+
+.navigation_contentTitle {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fa6843;
+}
+
+.navigation_contentText {
+  margin: auto;
+  width: 50%;
+  line-height: 1.5;
+  margin-top: 48px;
+}
+
+.navigation_contentButton {
+  background-color: #faaf3d;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 16px 40px;
+  margin-left: 50px;
+  transition-duration: 0.4s;
+  font-weight: 900;
+  margin: 16px 100px;
+  text-transform: uppercase;
+}
+.navigation_contentButton:hover {
+  background-color: #fa6843;
+  color: #000000;
+}
+
+.navigation_team {
+  margin: auto;
+  width: 52%;
+  letter-spacing: 0.5px;
+}
+
+.navigation_teamButton {
+  text-align: center;
+}
+
+.navigation_teamImg {
+  margin: 8px;
+  width: 292px;
+}
+
+#panel,
+#flip {
+  background-color: #faaf3d;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 16px 40px;
+  margin-left: 50px;
+  transition-duration: 0.4s;
+  font-weight: 900;
+  margin: 16px 100px;
+  text-transform: uppercase;
+}
+
+#flip:hover {
+  background-color: #fa6843;
+  color: #000000;
+}
+
+#panel {
+  display: none;
+  background-color: #fff;
+  margin: 16px;
+}
+
+.navigation_footer {
+  height: 88px;
+  margin: 0;
+  display: flex;
+  background-color: #ececec;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation_footer li {
+  list-style: none;
+}
+
+.navigation_footer p,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #696969;
+  text-decoration: none;
+  padding: 8px 92px 0;
+  font-size: 18px;
+}
+
+.navigation_footerEmail {
+  font: weight 600;
+}
+
+.navigation_footerPhone {
+  font: weight 600;
+  font-style: italic;
+}
